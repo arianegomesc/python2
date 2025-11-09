@@ -57,10 +57,11 @@ Este é um projeto prático para aprendizagem de strings e seus métodos em Pyth
 
 ## Criando um novo usuário:
 
-```bash
+```
 curl -X POST "http://localhost:8000/usuarios/" \
      -H "Content-Type: application/json" \
      -d '{"nome": "João da Silva Santos", "email": "teste@teste.com"}'
+```
 
 ## Listando usuários:
 
